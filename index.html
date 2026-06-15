@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Copa do Mundo 2026</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Copa do Mundo FIFA 2026</h1>
+        <p>Acompanhe e simule os resultados dos grupos</p>
+    </header>
+
+    <main class="container">
+        <section class="grupo-card">
+            <h2>Grupo A</h2>
+            <div class="jogos-lista">
+                
+                <div class="jogo">
+                    <span class="data">11/06 - 16:00</span>
+                    <div class="confronto">
+                        <div class="time mandante">
+                            <img src="https://flagcdn.com/w40/mx.png" alt="México">
+                            <span>México</span>
+                        </div>
+                        <input type="number" min="0" class="placar" data-jogo="1" data-time="mandante">
+                        <span class="vs">x</span>
+                        <input type="number" min="0" class="placar" data-jogo="1" data-time="visitante">
+                        <div class="time visitante">
+                            <span>África do Sul</span>
+                            <img src="https://flagcdn.com/w40/za.png" alt="África do Sul">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jogo">
+                    <span class="data">11/06 - 23:00</span>
+                    <div class="confronto">
+                        <div class="time mandante">
+                            <img src="https://flagcdn.com/w40/kr.png" alt="Coreia do Sul">
+                            <span>Coreia do Sul</span>
+                        </div>
+                        <input type="number" min="0" class="placar" data-jogo="2" data-time="mandante">
+                        <span class="vs">x</span>
+                        <input type="number" min="0" class="placar" data-jogo="2" data-time="visitante">
+                        <div class="time visitante">
+                            <span>Rep. Tcheca</span>
+                            <img src="https://flagcdn.com/w40/cz.png" alt="Rep. Tcheca">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="grupo-card">
+            <h2>Grupo C</h2>
+            <div class="jogos-lista">
+                <div class="jogo">
+                    <span class="data">13/06 - 19:00</span>
+                    <div class="confronto">
+                        <div class="time mandante">
+                            <img src="https://flagcdn.com/w40/br.png" alt="Brasil">
+                            <span>Brasil</span>
+                        </div>
+                        <input type="number" min="0" class="placar" data-jogo="3" data-time="mandante">
+                        <span class="vs">x</span>
+                        <input type="number" min="0" class="placar" data-jogo="3" data-time="visitante">
+                        <div class="time visitante">
+                            <span>Marrocos</span>
+                            <img src="https://flagcdn.com/w40/ma.png" alt="Marrocos">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
